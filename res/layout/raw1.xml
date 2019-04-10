@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="hello"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="hello"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Share"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/sharing"/>
+
+
+</LinearLayout>

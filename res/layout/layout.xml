@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+     <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+android:textColor="@color/colorPrimary"
+         android:layout_margin="10dp"
+    android:hint="Enter 1st tag"
+    android:id="@+id/tagb"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Enter 2nd  tag"
+        android:id="@+id/taga"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Enter 3rd tag"
+        android:id="@+id/tagc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:hint="Enter 4th tag"
+        android:id="@+id/tagd"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit" />
+
+
+</LinearLayout>
